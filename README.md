@@ -3,7 +3,7 @@
 An intelligent Streamlit application that transcribes, summarizes, and answers questions about any given video link. Stop watching hour-long videos just to find one piece of information—let the AI do the heavy lifting for you.
 
 ## ✨ Features
-* **Link-to-Text Transcription:** Automatically downloads audio from video links and transcribes it locally using [OpenAI's Whisper](https://github.com/openai/whisper).
+* **Audio-to-Text Transcription:** Automatically downloads audio from video links and transcribes it locally using [OpenAI's Whisper](https://github.com/openai/whisper).
 * **Smart Summarization:** Generates quick, highly accurate summaries of the entire video content.
 * **Interactive Q&A:** Chat directly with the video! Ask specific questions and get answers based strictly on the video's transcript.
 * **Local Vector Database:** Uses [ChromaDB](https://www.trychroma.com/) for lightning-fast semantic search and retrieval (RAG).
